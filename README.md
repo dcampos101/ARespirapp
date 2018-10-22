@@ -1,2 +1,0 @@
-# ARespirapp
-Aplicacion Respirapp
