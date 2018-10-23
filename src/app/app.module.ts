@@ -8,14 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AcercaPage} from '../pages/acerca/acerca';
 import { AyudaPage } from '../pages/ayuda/ayuda';
-
+import { RegistrodPage } from '../pages/registrod/registrod';
+import { MapacontPage } from '../pages/mapacont/mapacont';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AcercaPage,
-    AyudaPage
+    AyudaPage,
+    RegistrodPage,
+    MapacontPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,9 @@ import { AyudaPage } from '../pages/ayuda/ayuda';
     MyApp,
     HomePage,
     AcercaPage,
-    AyudaPage
+    AyudaPage,
+    RegistrodPage,
+    MapacontPage
   ],
   providers: [
     StatusBar,

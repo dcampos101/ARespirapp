@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AcercaPage } from '../acerca/acerca';
 import { AyudaPage } from '../ayuda/ayuda';
+import { RegistrodPage } from '../registrod/registrod';
+import { MapacontPage } from '../mapacont/mapacont';
 
 @Component({
   selector: 'page-home',
@@ -10,6 +12,9 @@ import { AyudaPage } from '../ayuda/ayuda';
 export class HomePage {
   acerca = AcercaPage;
   ayuda = AyudaPage;
+  registrod = RegistrodPage;
+  mapacont = MapacontPage;
+
   constructor(public navCtrl: NavController) {
 
   }
@@ -24,4 +29,13 @@ export class HomePage {
     this.navCtrl.push(this.ayuda);
   }
 
+  iraRegistrod(){
+    console.log("Click a Ayuda");
+    this.navCtrl.push(this.registrod);
+  }
+
+  iraMapacont(){
+    console.log("Click a Ayuda");
+    this.navCtrl.push(this.mapacont);
+  }
 }
